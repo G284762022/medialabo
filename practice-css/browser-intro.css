@@ -1,6 +1,10 @@
+p:first-child{
+	font-size: small;
+	background-color: #dfdfdf;
+}
 p {
 	color: navy;
-	background-color: #dfdfdf;
+	
 }
 
 p.info {
@@ -9,7 +13,7 @@ p.info {
 
 h1 {
 	background-color: white;
-	text-shadow: 1px 1px 2px navy;
+	text-shadow: navy 1px 0 10px;
 }
 
 h2 {
