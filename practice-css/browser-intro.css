@@ -1,5 +1,6 @@
 p {
 	color: navy;
+	background-color: #dfdfdf;
 }
 
 p.info {
@@ -8,7 +9,7 @@ p.info {
 
 h1 {
 	background-color: white;
-	text-shadow: navy;
+	text-shadow: 1px 1px 2px navy;
 }
 
 h2 {
