@@ -12,6 +12,7 @@ p.info {
 }
 
 h1 {
+	color: white;
 	background-color: white;
 	text-shadow: navy 1px 0 10px;
 }
