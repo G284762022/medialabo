@@ -7,7 +7,8 @@ p.info {
 }
 
 h1 {
-	background-color: #dfdfdf;
+	background-color: white;
+	text-shadow: navy;
 }
 
 h2 {
