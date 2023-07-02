@@ -52,7 +52,7 @@ h1 {
 	padding: 0.25em 0.5em;
   	color: #494949;
   	background: transparent;
-  	border-left: solid 5px #7db4e6;
+  	border-left: solid 5px #9de5ff;
   }
   p{
 	font-family: 'Noto Sans JP', sans-serif;
@@ -62,7 +62,7 @@ h1 {
     margin: 2em 0;
     color: #232323;
     background: #e8f7ff;
-    border-left: solid 10px #6e90ff;
+    border-left: solid 10px  #9de5ff;
 		}
 	.box8 p {
     margin: 0; 
@@ -78,4 +78,5 @@ h1 {
 	.box14 p {
 		margin: 0; 
 		padding: 0;
+		
 	}
