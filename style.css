@@ -3,9 +3,10 @@ h1{
 	
 	text-shadow: rgb(0, 128, 51) 1px 0 10px;
 }
-h2{
-    margin: 5px;
-	font-family: cursive;
-	color: #f8f8fa;
-	background: linear-gradient(.25turn,white, #afffcb);
+h2 {
+	
+	margin: 5px;
+	font-family: monospace;
+	color: skyblue;
+	background: linear-gradient(.25turn,white,rgb(0, 255, 145));
 }
