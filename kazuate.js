@@ -23,10 +23,10 @@ function hantei() {
   // 課題3-1における出力先はコンソール
   console.log(kaisu + 1 + "回目の予想: "+yoso);
   kaisu = kaisu + 1;
-  let skai = document.querySelector('span#kaisu');
-  skai.textContent = kaisu;
-  let sans = document.querySelector('span#answer');
-  sans.textContent = yoso;
+  let n1 = document.querySelector('span#kaisu');
+  n1.textContent = kaisu;
+  let n2 = document.querySelector('span#answer');
+  n2.textContent = yoso;
   let result = document.querySelector('p#result');
   
   if(kaisu <= 3){
