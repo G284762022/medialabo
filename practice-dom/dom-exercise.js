@@ -40,4 +40,9 @@ for(let i=0;i<3;i++){
 	w.remove();
 }
 // 練習4-5 箇条書き追加プログラム
-
+let a = document.querySelector('ul#location');
+for(let n of data){
+	let a3 = document.createElement('li');
+	a3.textContent = n.name+' ... 緯度: '+n.lat+', 経度: '+n.lng;
+	a.insertAdjacentElement('beforeend',a3);
+}
