@@ -9,3 +9,21 @@ img.sign {
     height: 100px;
     margin: 10px 0 10px 10px;
 }
+ten {
+    font-family: 'helvetica neue', helvetica, sans-serif;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    text-align: center;
+    border: 2px solid rgba(14, 238, 242, 0.928);
+    background: rgba(11, 239, 217, 0.3);
+    color: rgb(255, 255, 255);
+    box-shadow: 1px 1px 2px rgba(0,0,200,0.4);
+    border-radius: 10px;
+    padding: 3px 10px;
+    display: inline-block;
+    cursor: pointer;
+  }
+
+body{
+    background-image: url("sora.avif");
+}
