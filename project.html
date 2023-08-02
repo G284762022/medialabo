@@ -5,6 +5,7 @@
     <title>My project</title>
     <link rel="stylesheet" href="project.css">
     <script src="weather.js" defer></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.27.2/axios.min.js"></script>
   </head>
   <body>
     <h1>
@@ -13,10 +14,64 @@
       <img class="sign" src="tenki2.png">
       <img class="sign" src="tenki3.png">
     </h1>
+    <label for="kuni">都市（国）</label>
+    <select id="toshi" name="toshi">
+      <option value="360630">カイロ（エジプト）</option>
+      <option value="524901">モスクワ（ロシア）</option>
+      <option value="993800">ヨハネスブルク（南アフリカ）</option>
+      <option value="1816670">北京（中華人民共和国）</option>
+      <option value="1850147">東京（日本）</option>
+      <option value="1880252">シンガポール</option>
+      <option value="2147714">シドニー（オーストラリア）</option>
+      <option value="2643743">ロンドン（イギリス）</option>
+      <option value="2968815">パリ（フランス）</option>
+      <option value="3451189">リオデジャネイロ（ブラジル）</option>
+      <option value="5128581">ニューヨーク（アメリカ合衆国）</option>
+      <option value="5368361">ロサンゼルス（アメリカ合衆国）</option>
+
+    </select>
     <ten>
       <button id="miru">天気を見てみる</button>
     </ten>
-    
-    <div id="result"></div>
+    <div id="result">
+    <h3>
+      <div class="cityname">
+        都市
+        <span id="t1"></span>
+      </div>
+      <div class="lat">
+        緯度
+        <span id="t2"></span>
+      </div>
+      <div class="lon">
+        経度
+        <span id="t3"></span>
+      </div>
+      <div class="weather">
+        天気
+        <span id="t4"></span>
+      </div>
+      <div class="lowesttem">
+        最低気温
+        <span id="t5"></span>
+      </div>
+      <div class="highesttem">
+        最高気温
+        <span id="t6"></span>
+      </div>
+      <div class="humid">
+        湿度
+        <span id="t7"></span>
+      </div>
+      <div class="speed">
+        風速
+        <span id="t8"></span>
+      </div>
+      <div class="direction">
+        風向
+        <span id="t9"></span>
+      </div>
+    </h3>
+    </div>
   </body>
 </html>
