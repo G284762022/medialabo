@@ -27,3 +27,18 @@ ten {
 body{
     background-image: url("sora.avif");
 }
+
+h2 {
+    color: white;
+    text-shadow: rgb(10, 192, 237) 1px 0 10px;
+    border-top: solid #1e366a 1px;/*上のボーダー*/
+    border-bottom: solid #1e366a 1px;/*下のボーダー*/
+    padding: 0.5em 0 0.5em 1.5em;
+    line-height: 1.5;
+    padding: 0.5em 0;
+  }
+label {
+    color:white;
+    text-shadow: rgb(10, 192, 237) 1px 0 10px;
+    font-size: 20px;
+}
